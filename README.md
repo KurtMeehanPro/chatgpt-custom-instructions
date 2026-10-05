@@ -84,7 +84,7 @@ Git and GitHub were a natural fit. Instead of treating the instructions as dispo
 
 This project is deliberately small, but it demonstrates something I value in larger engineering work as well: tools should conform to a useful workflow rather than remain informal just because the underlying artifact is small or simple.
 
-Also, as we begin to work more and more with AI agents, I see it as very likely that we will want certain actions, even mundane ones, to be explicitly configured to our liking. I envision this will include explicitness in:
+Also, as we begin to work more and more with AI agents, I see it as very likely that we will want certain actions taken by AI agents on our behalf, even mundane ones, to be explicitly configured to our liking. I envision this will include explicitness in:
 - convenient ways to trigger the action
 - the format in which we want to receive the output
 - sources used in the action

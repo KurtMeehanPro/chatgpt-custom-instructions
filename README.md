@@ -9,7 +9,7 @@ Be sure not to miss the section [Lessons and (Fun?) (Scary?) Surprises](#lessons
 ## Repository Contents
 
 - `README.md` the document you're reading now
-- `custom_instructions.txt` aptly named
+- `custom-instructions.txt` aptly named
 
 ## Setup
 

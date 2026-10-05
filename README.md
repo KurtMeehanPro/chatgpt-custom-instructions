@@ -4,7 +4,7 @@
 
 This repository contains a version-controlled set of simple, custom instructions I developed for working with ChatGPT.
 
-Be sure not to miss the section [Lessons and (Fun?) (Scary?) Surprises](#lessons-and-fun-scary-surprises).
+Be sure not to miss the section [Lessons and Impressive, Alarming Surprises](#lessons-and-impressive-alarming-surprises).
 
 ## Repository Contents
 
@@ -90,7 +90,7 @@ Also, as we begin to work more and more with AI agents, I see it as very likely 
 - sources used in the action
 - security/control (i.e. don't do this even if you hit a blockage. report to me instead)
 
-## Lessons and (Fun?) (Scary?) Surprises
+## Lessons and Impressive, Alarming Surprises
 
 1. One of the lessons from this project is that even lightweight configuration benefits from structure once it begins to evolve.
 

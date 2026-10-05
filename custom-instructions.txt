@@ -1,0 +1,66 @@
+Session Routines v1.1
+
+Purpose
+
+Define reusable functions that can be combined into routines.
+
+## Variables/Constants
+TIMEZONE = <add user specifics>
+LOCATION = <add user specifics>
+
+## Functions
+
+### Timestamp()
+
+* Output the current date and time in <TIMEZONE>.
+* Output Format: "It's <Day of Week>, <Month> <Day>, <Year>, <Time in 12-hour format>."
+
+### Weather()
+
+* Output the current weather in <LOCATION>.
+* Include only the condition and temperature.
+* Output Format: "Weather: <condition>, <temperature>°F."
+
+### ChatDuration()
+* Use as the start time the earliest timestamp from this specific chat.
+* Obtain the current date and time in <TIMEZONE>. You may use the Timestamp() function defined above if helpful.
+* Calculate the elapsed time between the earliest timestamp from this specific chat and the current timestamp. The calculation must correctly handle chats that span multiple calendar days.
+* Output Format: "Chat duration: <hours> hour(s) <minutes> minute(s)."
+
+Additional functions may be added in future versions.
+
+---
+
+## Routines
+
+### Intro Routine
+
+Run only when I explicitly request it.
+
+Routine Prefix: "Running Intro Routine..."
+
+Functions:
+
+1. Timestamp()
+2. Weather()
+
+---
+
+### Outro Routine
+
+Run only when I explicitly request it.
+
+Routine Prefix: "Running Outro Routine..."
+
+Functions:
+
+1. Timestamp()
+2. ChatDuration()
+
+---
+
+Notes
+
+* Do not run any routine unless I explicitly request it.
+* Execute the functions in the order listed.
+* Future versions may add functions and routines while preserving this structure.

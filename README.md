@@ -101,7 +101,7 @@ During one chat, I had forgotten to ask for the Intro Routine at the beginning o
 
 But then I realized that the Outro Routine explicitly makes use of the timestamp given in the Intro Routine... So how could the Outro Routine work if I had never called the Intro Routine? Something didn't smell right. You can imagine Lt. Detective Columbo scratching his head and saying "Just one more thing..."
 
-When I asked ChatGPT for an explanation, it explained that it used the metadata from the conversation start in order to achieve the goal... I had never intended this. In fact, when I had asked previously, ChatGPT had told me that it didn't have such metadata (which I found hard to believe anyway). This supposed lack of metadata information regarding time was one of the things prompting me to develop the Timestamp routine in the first place!
+When I asked ChatGPT for an explanation, it explained that it used the metadata from the conversation start in order to achieve the goal... I had never intended this. In fact, when I had asked previously, ChatGPT had told me that it didn't have such metadata (which I found hard to believe anyway). This supposed lack of metadata information regarding time was one of the things prompting me to develop the Timestamp function in the first place!
 
 I find this behavior impressive and alarming at the same time. Impressive, because of the capabilities of the agents. Alarming, because of what could arise from said capabilities and resourcefulness. Unintended consequences and perverse instantiation are things we must always keep in mind, lest we all end up [paperclips](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer).
 
